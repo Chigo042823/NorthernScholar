@@ -1,0 +1,8 @@
+@font-face {
+    font-family: headerFont;
+    src: url(fonts/BerkshireSwash-Regular.ttf);
+}
+
+#title, #navMenu {
+    font-family: headerFont;
+}
