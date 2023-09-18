@@ -1,8 +1,21 @@
 @font-face {
     font-family: headerFont;
-    src: url(fonts/BerkshireSwash-Regular.ttf);
+    src: url(fonts/CinzelDecorative-Bold.ttf);
 }
 
-#title, #navMenu {
+@font-face {
+    font-family: articleHeaderFont;
+    src: url(fonts/CastoroTitling-Regular.ttf);
+}
+
+#title, #title2, #navMenu, #titleAdd {
     font-family: headerFont;
+}
+
+#ArticleTitle {
+    font-family: articleHeaderFont;
+}
+
+#ArticleAuthor {
+    font-style: italic;
 }

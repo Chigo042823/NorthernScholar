@@ -1,0 +1,15 @@
+#hero {
+    background-image: url("imgs/hero.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: inset 0 0 0 100vmax rgba(123, 114, 202, 0.527)
+}
+
+#heroText #title, #title2 {
+    font-size: 5.5rem;
+    line-height: 1;
+}
+
+#heroNF {
+    width: 46%; 
+}

@@ -6,12 +6,13 @@
     <title>Northern Scholar</title>
     <link href="../dist/output.css" rel="stylesheet">
     <link href="fonts.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
 </head>
-<body class="bg-indigo-200">
-    <header class="border-b-2 border-b-teal-700 w-screen h-24 bg-slate-500 flex" >
-        <img class="" src="imgs/NSLogo.png" alt="Logo">
+<body class="bg-zinc-50">
+    <header class="w-screen h-2 flex fixed top-0">
+        <img class="w-20 h-20 ml-5" src="imgs/NSLogo.png" alt="Logo">
         <h2 id="title" class="text-4xl pt-6 pl-2 text-indigo-50">Northern Scholar</h2>
-        <ul id="navMenu" class="flex w-fit gap-5 text-xl p-2 ml-auto my-auto text-indigo-50 pr-5">
+        <ul id="navMenu" class="flex w-fit gap-5 text-xl p-2 ml-auto pt-6 text-indigo-50 pr-5">
             <li><a href="#">Latest</a></li>
             <li><a href="#">Sports</a></li>
             <li><a href="#">Featured</a></li>
@@ -19,5 +20,20 @@
             <li><a href="#">Literary Writing</a></li>
         </ul>
     </header>
+    <div id="hero" class="h-screen w-screen flex">
+        <div id="heroText" class="w-1/3 h-fit ml-16 mt-auto mb-20">
+            <h1 id="title" class="text-zinc-50">Northern</h1>
+            <h1 id="title2" class="ml-20 text-zinc-50 flex">Scholars</h1>
+            <p id="titleAdd" class="ml-20 text-xl text-indigo-50">Bringing You the News of the Nation</p>
+        </div>
+        <div id="heroNF" class="bg-zinc-50 h-2/3 my-auto ml-44 rounded-3xl p-6">
+            <div class="w-full bg-slate-500 h-fit my-auto rounded-3xl p-4 text-indigo-50">
+                <h1 id="ArticleTitle" class="text-xl">Article Title</h1>
+                <p class="font-serif">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque purus nisi, sodales a scelerisque eget, elementum id turpis. Sed semper ante et leo scelerisque sagittis. Donec nec erat eget odio maximus pretium sit amet non est. Quisque porta enim quam. Aliquam accumsan, turpis eu pulvinar aliquet, lacus sapien 
+                    eleifend purus, et consequat lorem nibh sit amet lectus. Donec id sodales arcu, sit amet auctor ipsum. Mauris iaculis varius nibh vel blandit.</p>
+                <h4 id="ArticleAuthor" class="font-serif">-Myri</h4>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
