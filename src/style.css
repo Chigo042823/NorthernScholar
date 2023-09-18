@@ -11,5 +11,11 @@
 }
 
 #heroNF {
-    width: 46%; 
+    width: 46%;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
 }
+
+#heroNF::-webkit-scrollbar {
+    display: none;
+  }
